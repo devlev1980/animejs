@@ -1,0 +1,59 @@
+.box{
+	position: relative;
+	width: 200px;
+	height: 100px;
+	margin: 4px;
+	display: inline-block;
+
+
+}
+.blue{
+	background-color: blue;}
+.green{
+	background-color:green;}
+.red{
+	background-color:red}
+.yellow{
+	background-color: yellow;}
+
+#boxes{
+	width: 90%;
+	margin:  20px auto;
+	text-align: center;
+}
+#boxes span.boxText{
+	position: relative;
+	top:30px;
+	font-size: 35px;
+	color: #f4f4f4;
+}
+#boxes span.boxText2{
+	position: relative;
+	top:30px;
+	font-size: 35px;
+	color: #000;
+}
+
+#btns{
+	padding: 20px;
+	background-color: #f4f4f4;
+	margin-bottom: 20px;
+
+}
+#btns button{
+	background: #fff;
+	padding: 5px 10px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+}
+#btns .fa{
+	font-size: 30px;
+}
+#btns .fa-play-circle{
+color: green;
+}
+#btns .fa-pause-circle{
+	color: red;
+}
+
